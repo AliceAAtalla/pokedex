@@ -8,10 +8,10 @@
 ## Back-end
 
 - [x]  Configurar o banco de dados
-- [ ]  **Criar o endpoint middleware (GET)**
-	- [ ]  Decidir o padrão de paginação
+- [x]  **Criar o endpoint middleware (GET)**
+	- [x]  Decidir o padrão de paginação
 	- [ ]  Criação de testes
-	- [ ]  Permitir mudança de paginação pelo Front-end (Opcional)
+	- [x]  Permitir mudança de paginação pelo Front-end (Opcional - Decidi fazer via query)
 - [ ]  **Criar lista de Pokémon favoritos (POST)**
 	- [ ]  Modelagem (várias listas de favoritos, nome customizado para lista)
 	- [ ]  Criação de testes

@@ -4,15 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da5ac1a7-49eb-4f7d-b8cf-8ab8d677ee0b" name="Changes" comment="feature: add api backend application">
+    <list default="true" id="da5ac1a7-49eb-4f7d-b8cf-8ab8d677ee0b" name="Changes" comment="feature: add data base config">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/springframework_boot_spring_starter_webflux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tasks.md" beforeDir="false" afterPath="$PROJECT_DIR$/tasks.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,14 +40,23 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ApiApplication.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.PokemonServiceTest.testFetchAllPokemonsFromApi.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Alice/Estudos/zrp/pokedex"
+    "last_opened_file_path": "D:/Alice/Estudos/zrp/pokedex",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.PokemonServiceTest.testFetchAllPokemonsFromApi">
     <configuration name="ApiApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.api.ApiApplication" />
       <module name="api" />
@@ -52,8 +70,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PokemonServiceTest.testFetchAllPokemonsFromApi" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.api.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.api.services" />
+      <option name="MAIN_CLASS_NAME" value="com.example.api.services.PokemonServiceTest" />
+      <option name="METHOD_NAME" value="testFetchAllPokemonsFromApi" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PokemonServiceTest.testFetchAllPokemonsFromApi" />
         <item itemvalue="Application.ApiApplication" />
       </list>
     </recent_temporary>
@@ -82,11 +117,28 @@
       <option name="project" value="LOCAL" />
       <updated>1712191730734</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feature: add data base config">
+      <option name="closed" value="true" />
+      <created>1712193759478</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712193759478</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feature: add data base config">
+      <option name="closed" value="true" />
+      <created>1712195325131</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712195325131</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feature: add api backend application" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature: add api backend application" />
+    <MESSAGE value="feature: add data base config" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature: add data base config" />
   </component>
 </project>
