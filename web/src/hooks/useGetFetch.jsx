@@ -9,8 +9,11 @@ const useGetFetch = (apiUrl) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const result = await getRequestWithNativeFetch(apiUrl);
-        console.log("result: ", result)
+        const options = {
+          method: 'GET',
+          'Content-Type': 'application/json',
+        }
+        const result = await getRequestWithNativeFetch(apiUrl, options);
         setData(result);
         setError(null);
       } catch (err) {

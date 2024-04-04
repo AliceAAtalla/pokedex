@@ -1,7 +1,6 @@
-const getRequestWithNativeFetch = async (apiUrl) => {
+const getRequestWithNativeFetch = async (apiUrl, options) => {
   const response = await fetch(apiUrl, {
-    method: 'GET',
-    'Content-Type': 'application/json', 
+    ...options
   });
 
   if (!response.ok) {
