@@ -2,7 +2,7 @@
 
 - [x] Criação do repositório no GitHub
 - [x] Fazer configurações iniciais front-end
-- [ ] Fazer configurações iniciais
+- [x] Fazer configurações iniciais back-end
 - [ ] Estudar a API que será usada (PokeAPI)
 
 ## Back-end
