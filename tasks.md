@@ -29,7 +29,7 @@
 ## Front-end
 
 - [ ] **Criar página de listagem de produtos**
-	- [ ]  Criar cabeçalho
+	- [x]  Criar cabeçalho
 	- [ ]  Criar componente que lista o nome do Pokémon
 	- [ ]  Fazer fetch de dados
 	- [ ]  Criar testes unitários
