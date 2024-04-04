@@ -47,7 +47,7 @@ Open other terminal and run the following command:
 
 ```
 cd .\web\
-npm install
+npm install --legacy-peer-deps
 ```
 
 Run web application:
