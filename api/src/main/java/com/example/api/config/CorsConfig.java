@@ -16,6 +16,8 @@ public class CorsConfig {
         config.setAllowCredentials(true);
 
         config.addAllowedOrigin("http://localhost:3000");
+        config.addAllowedOrigin("https://pokedex-pi-plum.vercel.app");
+        config.addAllowedOrigin("https://pokedex-git-main-aliceaatallas-projects.vercel.app/");
 
         config.addAllowedHeader("*");
         config.addAllowedMethod("*");
