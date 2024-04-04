@@ -3,11 +3,11 @@
 - [x] Criação do repositório no GitHub
 - [x] Fazer configurações iniciais front-end
 - [x] Fazer configurações iniciais back-end
-- [ ] Estudar a API que será usada (PokeAPI)
+- [x] Estudar a API que será usada (PokeAPI)
 
 ## Back-end
 
-- [ ]  Configurar o banco de dados
+- [x]  Configurar o banco de dados
 - [ ]  **Criar o endpoint middleware (GET)**
 	- [ ]  Decidir o padrão de paginação
 	- [ ]  Criação de testes
@@ -27,7 +27,7 @@
 
 - [ ] **Criar página de listagem de produtos**
 	- [ ]  Criar cabeçalho
-	- [ ]  Criar componente que mostra a imagem e o nome do Pokémon
+	- [ ]  Criar componente que lista o nome do Pokémon
 	- [ ]  Fazer fetch de dados
 	- [ ]  Criar testes unitários
 - [ ]  **Criar página de listagem de favoritos**
