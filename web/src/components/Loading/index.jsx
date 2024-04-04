@@ -1,10 +1,10 @@
 import "./index.css"
 
-export default function Loading() {
+export default function Loading({ text }) {
 
   return (
     <div>
-      <p>Loading Pokemons...</p>
+      <p>{text}</p>
     </div>
   )
 }

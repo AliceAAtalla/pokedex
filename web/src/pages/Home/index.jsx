@@ -12,8 +12,9 @@ function Home() {
   return (
     <>
       <Header />
-      {loading ? <Loading /> : null}
-      {data && data.results.length ? <PokemonList pokemonList={data.results} /> : null}
+      {loading ? <Loading text="Loading Pokemons..." /> : null}
+      {<p>Home</p>}
+      {data && data.results.length > 0 ? <PokemonList pokemonList={data.results} /> : null}
     </>
   );
 }
