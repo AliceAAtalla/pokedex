@@ -12,16 +12,19 @@
 	- [x]  Decidir o padrão de paginação
 	- [ ]  Criação de testes
 	- [x]  Permitir mudança de paginação pelo Front-end (Opcional - Decidi fazer via query)
-- [ ]  **Criar lista de Pokémon favoritos (POST)**
-	- [ ]  Modelagem (várias listas de favoritos, nome customizado para lista)
+- [ ]  **Criar lista de Pokémons favoritos (POST)**
+	- [x]  Modelagem (várias listas de favoritos, nome customizado para lista)
 	- [ ]  Criação de testes
-	- [ ] Testes no Postman
+	- [ ]  Testes no Postman
+- [ ]  **Adicionar na lista criada os Pokémons favoritos (POST)**
+	- [ ]  Criação de testes
+	- [ ]  Testes no Postman
 - [ ]  **Trazer todas as listas de favoritos criadas (GET)**
 	- [ ]  Criação de testes
-	- [ ] Testes no Postman
+	- [ ]  Testes no Postman
 - [ ] **Trazer uma lista de favoritos pelo ID da lista (GET)**
 	- [ ]  Criação de testes 
-	- [ ] Testes no Postman
+	- [ ]  Testes no Postman
 
 ## Front-end
 

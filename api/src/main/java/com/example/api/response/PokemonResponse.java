@@ -1,7 +1,8 @@
 package com.example.api.response;
 
-import java.util.List;
+import jakarta.persistence.Embeddable;
 
+@Embeddable
 public class PokemonResponse {
 
     private String name;
