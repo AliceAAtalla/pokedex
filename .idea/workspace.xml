@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da5ac1a7-49eb-4f7d-b8cf-8ab8d677ee0b" name="Changes" comment="feature: create favorite entity">
+    <list default="true" id="da5ac1a7-49eb-4f7d-b8cf-8ab8d677ee0b" name="Changes" comment="feature: created requests to create an user and a favorite">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/example/api/controllers/PokemonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/example/api/controllers/PokemonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tasks.md" beforeDir="false" afterPath="$PROJECT_DIR$/tasks.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/pages/Home/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Home/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/vite.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +44,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.ApiApplication.executor": "Run",
+    "Application.ApiApplication.executor": "Debug",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.PokemonServiceTest.testFetchAllPokemonsFromApi.executor": "Run",
     "Repository.Attach.Annotations": "false",
@@ -168,7 +170,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712212904766</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feature: create favorite entity">
+      <option name="closed" value="true" />
+      <created>1712212925442</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1712212925442</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feature: created requests to create an user and a favorite">
+      <option name="closed" value="true" />
+      <created>1712213008367</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1712213008367</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -177,7 +195,8 @@
     <MESSAGE value="feature: get all pokemons method" />
     <MESSAGE value="feature: create user entity" />
     <MESSAGE value="feature: create favorite entity" />
-    <option name="LAST_COMMIT_MESSAGE" value="feature: create favorite entity" />
+    <MESSAGE value="feature: created requests to create an user and a favorite" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature: created requests to create an user and a favorite" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -192,7 +211,18 @@
           <line>32</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api/src/main/java/com/example/api/controllers/PokemonController.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="io.micrometer.observation.NoopObservationRegistry" memberName="observationConfig" />
+        <PinnedItemInfo parentTag="org.springframework.web.reactive.function.client.DefaultWebClient" memberName="builder" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
