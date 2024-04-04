@@ -1,7 +1,7 @@
 ## Tarefas Gerais
 
 - [x] Criação do repositório no GitHub
-- [ ] Fazer configurações iniciais front-end
+- [x] Fazer configurações iniciais front-end
 - [ ] Fazer configurações iniciais
 - [ ] Estudar a API que será usada (PokeAPI)
 
